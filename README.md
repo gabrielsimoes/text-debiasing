@@ -8,6 +8,6 @@ A project for CSE 40657. Instructions for running:
 
 - Model output can be generated with `python train.py --model transformer --test bias_data/WNC/biased.word.test --load transformer-$i.model > test.model`
 
-- Gold test sentences have to be saved for comparisson with `cat bias_data/WNC/biased.word.test | cut -d ' ' -f  3 > test.gold`.
+- Gold test sentences have to be saved for comparisson with `cat bias_data/WNC/biased.word.test | cut -d$'\t' -f  3 > test.gold`.
 
 - Output can be scored with `python score.py test.gold test.model`.
