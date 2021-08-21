@@ -1,6 +1,6 @@
 # Text Debiasing
 
-A project for a class on Natural Language Processing (CSE 40657). Instructions for running:
+A project for a class on Natural Language Processing (CSE 40657). A model for debiasing a text. Instructions for running:
 
 - Data must be downloaded and saved to `bias_data/` from https://github.com/rpryzant/neutralizing-bias.
 
